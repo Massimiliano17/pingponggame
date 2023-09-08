@@ -12,6 +12,8 @@ class  GameSprite(sprite.Sprite):
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
+
+#Абоба
 class Player(GameSprite):
     def __init__(self, player_picture, player_w, player_h, player_x, player_y):
         super().__init__(player_picture, player_w, player_h, player_x, player_y)
